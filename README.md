@@ -4,7 +4,7 @@ A **fully responsive** university website template built using **HTML**, **CSS**
 The project includes a minified CSS file for performance, along with an unminified version located in a separate folder for easy editing.
 
 ## 📌 Preview
-[Live Demo](https://brahimdjelid.github.io/University-Website/)
+[Live Demo](https://brahimdjelid.github.io/university-website/)
 
 
 ## ✨ Features
