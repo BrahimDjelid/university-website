@@ -377,6 +377,7 @@ header nav .nav-links a::after {
 
 .courses .course img {
   max-width: 100%;
+  height: 100%;
 }
 
 .courses .course .course-info {
@@ -415,9 +416,8 @@ header nav .nav-links a::after {
 
 .courses .course .meta .course-btn {
   color: var(--main-pink);
-  border: 2px solid var(--main-red);
-  border-radius: 6px;
-  padding: 3px 6px;
+  border-radius: 5px;
+  padding: 6px 9px;
   font-size: 15px;
   background-color: var(--main-red);
   transition: 0.3s;
@@ -425,7 +425,6 @@ header nav .nav-links a::after {
 
 .courses .course .meta .course-btn:hover {
   background-color: #d32f2f;
-  border-color: #d32f2f;
 }
 
 .courses .btn {
@@ -566,18 +565,17 @@ header nav .nav-links a::after {
 .testimonials .container {
   display: flex;
   justify-content: space-between;
-  gap: 30px;
+  gap: 20px;
 }
 
 @media (max-width: 991px) {
   .testimonials .container {
     flex-direction: column;
-    gap: 20px;
   }
 }
 
 .testimonials .box {
-  flex-basis: 48%;
+  flex: 1;
   display: flex;
   background-color: var(--main-pink, #fff3f3);
   padding: 25px;
@@ -657,13 +655,17 @@ header nav .nav-links a::after {
 /* Start Testimonials */
 /* Start Cta (Call To Action)*/
 .cta {
+  margin-top: 80px;
+}
+
+.cta .container .cta-content {
   padding: var(--section-padding-tb) 0;
-  margin-top: 100px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url("../imgs/banner2.jpg");
   background-size: cover;
   background-position: center;
   color: white;
+  border-radius: 10px;
 }
 
 .cta .btn-shape {
@@ -857,7 +859,7 @@ footer p i {
   display: block;
   width: 100%;
   padding: 10px 20px;
-  margin: 15px 0;
+  margin: 0 0 15px;
   border: none;
   border-radius: 3px;
   background-color: #f0f0f0;
@@ -866,7 +868,7 @@ footer p i {
 
 .blog-content .blog-left .comment-box .input::placeholder,
 .blog-content .blog-left .comment-box textarea::placeholder {
-  transition: opacity 0.8s;
+  transition: opacity 0.5s;
 }
 
 .blog-content .blog-left .comment-box .input:focus::placeholder,
